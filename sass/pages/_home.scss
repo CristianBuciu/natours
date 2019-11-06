@@ -1,0 +1,79 @@
+.section-about {
+  background-color: $color-grey-light1;
+  margin-top: -25vh;
+  @include skewSection;
+  padding-bottom: 27.5vh;
+}
+
+.section-features {
+  @include skewSection;
+  backdrop-filter: blur(.1rem);
+  background-image: linear-gradient(
+    to right bottom,
+    #313eebc5,
+    #005aeec5,
+    #006ee2c5,
+    #007cccc5,
+    #0085b3c5,
+    #0091b3c5,
+    #079cb0c5,
+    #30a6abc5,
+    #3abbbdc5,
+    #45d0cfc5,
+    #52e5e0c5,
+    #5ffbf1c5
+  );
+}
+
+.section-tours {
+  background-color: $color-grey-light1;
+  @include skewSection;
+}
+
+.section-stories {
+  padding: 35rem 0 10rem 0;
+  background-color: rgba($color-grey-light1, 0.7s);
+
+  margin-top: -15rem;
+  position: relative;
+}
+
+.section-book {
+  padding: 15rem 0;
+  backdrop-filter: blur(.1rem);
+  background-image: linear-gradient(
+    to right bottom,
+    #313eebc5,
+    #005aeec5,
+    #006ee2c5,
+    #007cccc5,
+    #0085b3c5,
+    #0091b3c5,
+    #079cb0c5,
+    #30a6abc5,
+    #3abbbdc5,
+    #45d0cfc5,
+    #52e5e0c5,
+    #5ffbf1c5
+  );
+}
+
+.book {
+  background-image: linear-gradient(
+      105deg,
+      rgba(255, 255, 255, .9) 0%,
+      rgba(255, 255, 255, .9) 50%,
+      transparent 50%
+    ),
+    url(../img/nat-10.jpg);
+  background-size: cover;
+  border-radius: .5rem;
+  box-shadow: 0 1.5rem 4rem rgba($color: #000000, $alpha: .2);
+
+  height: 50rem;
+
+  &__form {
+    width: 50%;
+    padding: 6rem;
+  }
+}

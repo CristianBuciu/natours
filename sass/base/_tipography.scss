@@ -1,0 +1,63 @@
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+
+  backface-visibility: hidden;
+  /* to reduce the shackness of animation */
+
+  &--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 2.5rem;
+    padding-left: 2.5rem;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    /* animation-iteration-count: 3;
+		animation-delay: 0.5s; */
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    padding-left: 1.15rem;
+    animation: moveInRight 1s ease-out;
+  }
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  color: #049cb0;
+
+  z-index: 5;
+  transition: all .2s;
+  letter-spacing: .2rem;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  &:hover {
+    cursor: none;
+    transform: skewY(1deg) skewX(1deg) scale(1.02);
+    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  }
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  &:not(:last-child) {
+    padding-bottom: 3rem;
+  }
+}

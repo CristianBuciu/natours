@@ -1,0 +1,32 @@
+.feature-box {
+  background-color: rgba($color: #ffffff, $alpha: .75);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: .5rem;
+  box-shadow: 0 1.5rem 4rem rgba($color: #000000, $alpha: .2);
+  transition: all .2s;
+  &__icon {
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(
+      to right,
+      #3734ec,
+      #0058ed,
+      #006ce1,
+      #007acc,
+      #0084b3,
+      #0090b3,
+      #049cb0,
+      #30a6ab
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.1);
+    box-shadow: 0 3rem 8rem rgba($color: #000000, $alpha: .4);
+  }
+}

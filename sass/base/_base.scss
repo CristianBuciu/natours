@@ -1,0 +1,27 @@
+/* BROWSER RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* Padding and margin are not added to the total width or height of the box  */
+}
+
+html {
+  font-size: 65%;
+}
+
+body {
+  font-family: 'Big Shoulders Text', cursive;
+  background-image: url('/img/hero7.jpg');
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+
+  line-height: 1.5;
+  color: $color-grey-dark;
+  box-sizing: border-box;
+}

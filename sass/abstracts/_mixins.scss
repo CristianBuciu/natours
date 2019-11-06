@@ -1,0 +1,37 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin buttonHover {
+  transform: translateY(-.3rem);
+  box-shadow: 0 2rem 4rem rgba($color-black, .2);
+}
+
+@mixin buttonActive {
+  transform: translateY(-.1rem);
+  box-shadow: 0 1rem 2rem rgba($color-black, .2);
+}
+
+@mixin skewSection {
+  padding: 20rem 0;
+  transform: skewY(-7deg);
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+@mixin headerPolygon {
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+@mixin centerXY {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
