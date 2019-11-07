@@ -1,6 +1,6 @@
 .header {
   height: 100vh;
-
+  z-index: 3;
   background-image: linear-gradient(
     to right bottom,
     #313eebc5,
@@ -16,15 +16,17 @@
     #52e5e0c5,
     #5ffbf1c5
   );
+
   background-size: cover;
+  width: 100%;
   background-position: top;
   @include headerPolygon;
   position: relative;
 
   &__logo-box {
     position: absolute;
-    top: 4rem;
-    left: 4rem;
+    top: 7rem;
+    left: 5rem;
   }
 
   &__logo {
@@ -34,8 +36,59 @@
   &__text-box {
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  &__img {
+    display: inline-block;
+    width: 100%;
+    &--mountains {
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      object-fit: cover;
+      object-position: top;
+
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      opacity: .4;
+    }
+    &--forest {
+      z-index: 0;
+      position: absolute;
+      bottom: -25%;
+      right: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      object-position: bottom left;
+      opacity: 1;
+    }
+    &--clouds {
+      z-index: -1;
+      position: absolute;
+      right: 0;
+      bottom: -15%;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      object-position: top;
+      opacity: .5;
+    }
+    &--clouds-2 {
+      z-index: -2;
+      position: absolute;
+      right: 0;
+      bottom: -15%;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      object-position: top;
+      opacity: .6;
+    }
   }
 }
