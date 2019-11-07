@@ -3,8 +3,8 @@ Natours
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="/css/icon-font.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,700,900&display=swap"
         rel="stylesheet">
     <meta charset="UTF-8">
