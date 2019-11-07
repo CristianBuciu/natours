@@ -1,4 +1,4 @@
-Natours
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,15 +37,15 @@ Natours
     </div>
     <header class="header">
         <div class="header__img">
-            <img src="../img/mountains.jpg" alt="" class="header__img--mountains lax"
+            <img src="./img/mountains.jpg" alt="" class="header__img--mountains lax"
                 data-lax-translate-y="0 0,800 -50">
-            <img src="../img/forest.png" alt="" class="header__img--forest lax" data-lax-translate-y="0 0,900 -210">
-            <img src="../img/clouds2.png" alt="" class="header__img--clouds lax" data-lax-translate-y="0 0,900 100">
-            <img src="../img/clouds.png" alt="" class="header__img--clouds-2 lax" data-lax-translate-y="0 0,900 -600">
+            <img src="./img/forest.png" alt="" class="header__img--forest lax" data-lax-translate-y="0 0,900 -210">
+            <img src="./img/clouds2.png" alt="" class="header__img--clouds lax" data-lax-translate-y="0 0,900 100">
+            <img src="./img/clouds.png" alt="" class="header__img--clouds-2 lax" data-lax-translate-y="0 0,900 -600">
 
         </div>
         <div class="header__logo-box">
-            <img src="/img/logo-white.png" alt="crown logo" class="header__logo">
+            <img src="img/logo-white.png" alt="crown logo" class="header__logo">
         </div>
 
         <div class="header__text-box">
