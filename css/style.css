@@ -8,10 +8,19 @@
   /* Padding and margin are not added to the total width or height of the box  */ }
 
 html {
-  font-size: 65%; }
-  @media (max-width: 600px) {
+  font-size: 62.5%; }
+  @media (max-width: 37.5em) {
     html {
-      font-size: 55%; } }
+      font-size: 43.75%; } }
+  @media (min-width: 37.5625em) and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 56.3125em) and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 68.75%; } }
 
 body {
   font-family: 'Big Shoulders Text', cursive;
@@ -146,6 +155,18 @@ body {
   padding-bottom: 27.5vh; }
   .section-about > * {
     transform: skewY(7deg); }
+
+@media (max-width: 37.5em) {
+  .section-about--media {
+    padding-top: 15rem; } }
+
+@media (min-width: 37.5625em) and (max-width: 56.25em) {
+  .section-about--media {
+    padding-top: 10rem; } }
+
+@media (min-width: 56.3125em) and (max-width: 75em) {
+  .section-about--media {
+    padding-top: 5rem; } }
 
 .section-features {
   padding: 20rem 0;
@@ -795,7 +816,7 @@ body {
   .header__text-box {
     text-align: center;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%); }
   .header__img {
@@ -804,10 +825,10 @@ body {
     .header__img--mountains {
       z-index: -1;
       position: absolute;
-      top: 0;
+      bottom: 0;
       right: 0;
       object-fit: cover;
-      object-position: top;
+      object-position: bottom;
       width: 100vw;
       height: 100vh;
       object-fit: cover;

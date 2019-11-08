@@ -5,6 +5,20 @@
   padding-bottom: 27.5vh;
 }
 
+.section-about--media {
+  @include respond(phone) {
+    padding-top: 15rem;
+  }
+  @include respond(tab-port) {
+    padding-top: 10rem;
+  }
+  @include respond(tab-land) {
+    padding-top: 5rem;
+  }
+  @include respond(big-desk) {
+  }
+}
+
 .section-features {
   @include skewSection;
   backdrop-filter: blur(.1rem);

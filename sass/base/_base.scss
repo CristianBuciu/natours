@@ -8,10 +8,22 @@
   /* Padding and margin are not added to the total width or height of the box  */
 }
 
+// This defines what 1rem is
+
 html {
-  font-size: 65%;
-  @media (max-width: 600px) {
-    font-size: 55%;
+  font-size: 62.5%; // 1 rem = 10px ;
+
+  @include respond(phone) {
+    font-size: 43.75%; // 1rem = 7px, 7/16 = 43.75%
+  }
+  @include respond(tab-port) {
+    font-size: 50%; // 1 rem = 8px, 8/16 = 50%
+  }
+  @include respond(tab-land) {
+    font-size: 56.25%; // 1 rem = 9px, 9/16 = 56.25%
+  }
+  @include respond(big-desk) {
+    font-size: 68.75%; // 1 rem = 11px, 11/16 = 68.75%
   }
 }
 
