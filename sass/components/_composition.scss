@@ -37,7 +37,9 @@
   }
   .figcaption {
     position: absolute;
-    top: 31rem;
-    left: 24rem;
+    margin-bottom: 4rem;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

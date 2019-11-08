@@ -9,6 +9,9 @@
 
 html {
   font-size: 65%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 55%; } }
 
 body {
   font-family: 'Big Shoulders Text', cursive;
@@ -294,8 +297,10 @@ body {
     box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.6); }
   .composition .figcaption {
     position: absolute;
-    top: 31rem;
-    left: 24rem; }
+    margin-bottom: 4rem;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.75);
@@ -808,7 +813,7 @@ body {
       object-fit: cover;
       opacity: .4; }
     .header__img--forest {
-      z-index: 0;
+      z-index: -1;
       position: absolute;
       bottom: -25%;
       right: 0;
