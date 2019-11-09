@@ -23,6 +23,21 @@
   @include headerPolygon;
   position: relative;
 
+  @include respond(phone) {
+    clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
+  }
+  @include respond(tab-port) {
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+  }
+  @include respond(tab-land) {
+    clip-path: polygon(0 0, 100% 0, 100% 87.5vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 87.5vh, 0 100%);
+  }
+  @include respond(big-desk) {
+  }
+
   &__logo-box {
     position: absolute;
     top: 7rem;

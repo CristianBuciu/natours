@@ -155,18 +155,27 @@ body {
   padding-bottom: 27.5vh; }
   .section-about > * {
     transform: skewY(7deg); }
+  @media (max-width: 37.5em) {
+    .section-about {
+      padding-bottom: 5rem; } }
+  @media (min-width: 37.5625em) and (max-width: 56.25em) {
+    .section-about {
+      padding-bottom: 7.5rem; } }
+  @media (min-width: 56.3125em) and (max-width: 75em) {
+    .section-about {
+      padding-bottom: 10rem; } }
 
 @media (max-width: 37.5em) {
   .section-about--media {
-    padding-top: 15rem; } }
+    padding-top: 7.5rem; } }
 
 @media (min-width: 37.5625em) and (max-width: 56.25em) {
   .section-about--media {
-    padding-top: 10rem; } }
+    padding-top: 8rem; } }
 
 @media (min-width: 56.3125em) and (max-width: 75em) {
   .section-about--media {
-    padding-top: 5rem; } }
+    padding-top: 12rem; } }
 
 .section-features {
   padding: 20rem 0;
@@ -804,9 +813,21 @@ body {
   background-size: cover;
   width: 100%;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative; }
+  @media (max-width: 37.5em) {
+    .header {
+      clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%); } }
+  @media (min-width: 37.5625em) and (max-width: 56.25em) {
+    .header {
+      clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%); } }
+  @media (min-width: 56.3125em) and (max-width: 75em) {
+    .header {
+      clip-path: polygon(0 0, 100% 0, 100% 87.5vh, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 87.5vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
     top: 7rem;
