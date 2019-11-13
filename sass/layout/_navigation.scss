@@ -54,7 +54,7 @@
     box-shadow: -2rem 2rem 8rem rgba($color: #000000, $alpha: .6);
     transition: transform .6s linear;
     -webkit-font-smoothing: subpixel-antialiased;
-    transform: translateZ(0) scale(0);
+    transform: translateX(0) translateY(0) scale(0);
   }
   &__nav {
     display: inline-block;
@@ -112,14 +112,24 @@
   }
 
   &__checkbox:checked ~ &__background {
-    transform: translateZ(0) scale(1);
+    transform: translateX(35vw) translateY(30vw) scale(1);
     -webkit-font-smoothing: subpixel-antialiased;
+
+    @include respond(phone) {
+      transform: translateX(65vw) translateY(85vw) scale(.5);
+    }
+    @include respond(tab-port) {
+      transform: translateX(50rem) translateY(50rem) scale(.8);
+    }
+    @include respond(tab-land) {
+      transform: translateX(50rem) translateY(62rem) scale(.9);
+    }
   }
 
   &__checkbox:checked ~ &__nav {
     opacity: 1;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     transform: scale(1);
   }
 

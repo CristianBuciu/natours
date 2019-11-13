@@ -28,8 +28,12 @@ html {
 }
 
 body {
+  padding: 2rem;
   font-family: 'Big Shoulders Text', cursive;
   line-height: 1.5;
   color: $color-grey-dark;
   box-sizing: border-box;
+  @include respond(phone) {
+    padding: 0;
+  }
 }
