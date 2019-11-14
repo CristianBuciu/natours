@@ -190,42 +190,31 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  margin-top: -25vh;
-  padding: 20rem 0;
+  margin-top: -25rem;
+  padding: 15rem 0;
   transform: skewY(-7deg);
-  padding-bottom: 27.5vh; }
+  padding-top: 27.5rem;
+  padding-bottom: 20rem; }
   .section-about > * {
     transform: skewY(7deg); }
   @media (max-width: 37.5em) {
     .section-about {
-      padding-bottom: 5rem; } }
+      padding-bottom: 7.5rem; } }
   @media (min-width: 37.5625em) and (max-width: 56.25em) {
     .section-about {
-      padding-bottom: 7.5rem; } }
+      padding-bottom: 5rem; } }
   @media (min-width: 56.3125em) and (max-width: 75em) {
     .section-about {
-      padding-bottom: 10rem; } }
-
-@media (max-width: 37.5em) {
-  .section-about--media {
-    padding-top: 25rem; } }
-
-@media (min-width: 37.5625em) and (max-width: 56.25em) {
-  .section-about--media {
-    padding-top: 20rem; } }
-
-@media (min-width: 56.3125em) and (max-width: 75em) {
-  .section-about--media {
-    padding-top: 15rem; } }
+      padding-bottom: 15rem; } }
 
 .section-features {
-  padding: 20rem 0;
+  padding: 15rem 0;
   transform: skewY(-7deg);
   backdrop-filter: blur(0.1rem);
   background-image: linear-gradient(to right bottom, rgba(49, 62, 235, 0.5), rgba(0, 90, 238, 0.5), rgba(0, 110, 226, 0.5), rgba(0, 124, 204, 0.5), rgba(0, 133, 179, 0.5), rgba(0, 145, 179, 0.5), rgba(7, 156, 176, 0.5), rgba(48, 166, 171, 0.5), rgba(58, 187, 189, 0.5), rgba(69, 208, 207, 0.5), rgba(82, 229, 224, 0.5), rgba(95, 251, 241, 0.5)), url(../img/hero4.jpeg);
   background-size: cover;
   background-repeat: none;
-  background-position: top; }
+  background-position: center; }
   .section-features > * {
     transform: skewY(7deg); }
   @media (max-width: 37.5em) {
@@ -243,13 +232,13 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 20rem 0;
+  padding: 15rem 0;
   transform: skewY(-7deg); }
   .section-tours > * {
     transform: skewY(7deg); }
   @media (max-width: 37.5em) {
     .section-tours {
-      padding-top: 4rem;
+      padding-top: 8rem;
       padding-bottom: 8rem; } }
   @media (min-width: 37.5625em) and (max-width: 56.25em) {
     .section-tours {
@@ -1016,8 +1005,8 @@ body {
   position: relative; }
   @media (max-width: 37.5em) {
     .header {
-      clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%); } }
+      clip-path: polygon(0 0, 100% 0, 100% 92.5vh, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 92.5vh, 0 100%); } }
   @media (min-width: 37.5625em) and (max-width: 56.25em) {
     .header {
       clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);

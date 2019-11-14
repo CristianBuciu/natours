@@ -24,8 +24,8 @@
   position: relative;
 
   @include respond(phone) {
-    clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 92.5vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 92.5vh, 0 100%);
   }
   @include respond(tab-port) {
     clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);

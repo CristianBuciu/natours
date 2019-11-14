@@ -1,31 +1,20 @@
 .section-about {
   background-color: $color-grey-light1;
-  margin-top: -25vh;
+  margin-top: -25rem;
+
   @include skewSection;
-  padding-bottom: 27.5vh;
+
+  padding-top: 27.5rem;
+  padding-bottom: 20rem;
 
   @include respond(phone) {
-    padding-bottom: 5rem;
-  }
-  @include respond(tab-port) {
     padding-bottom: 7.5rem;
   }
-  @include respond(tab-land) {
-    padding-bottom: 10rem;
-  }
-}
-
-.section-about--media {
-  @include respond(phone) {
-    padding-top: 25rem;
-  }
   @include respond(tab-port) {
-    padding-top: 20rem;
+    padding-bottom: 5rem;
   }
   @include respond(tab-land) {
-    padding-top: 15rem;
-  }
-  @include respond(big-desk) {
+    padding-bottom: 15rem;
   }
 }
 
@@ -50,7 +39,7 @@
     url(../img/hero4.jpeg);
   background-size: cover;
   background-repeat: none;
-  background-position: top;
+  background-position: center;
   @include respond(phone) {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -72,7 +61,7 @@
   @include skewSection;
 
   @include respond(phone) {
-    padding-top: 4rem;
+    padding-top: 8rem;
     padding-bottom: 8rem;
   }
   @include respond(tab-port) {
