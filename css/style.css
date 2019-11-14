@@ -400,55 +400,65 @@ body {
     .composition__photo--p1 {
       top: 2rem;
       left: 0; }
-      @media (max-width: 37.5em) {
-        .composition__photo--p1:active {
-          top: -2.2rem;
-          left: 0; } }
-      @media (min-width: 37.5625em) and (max-width: 56.25em) {
-        .composition__photo--p1:active {
-          top: -3rem;
-          left: 0; } }
-      @media (min-width: 56.3125em) and (max-width: 75em) {
-        .composition__photo--p1:active {
-          top: -2.5rem;
-          left: 0; } }
+      .composition__photo--p1:active {
+        top: -3rem;
+        right: 0; }
+        @media (max-width: 37.5em) {
+          .composition__photo--p1:active {
+            top: -2.2rem;
+            left: 0; } }
+        @media (min-width: 37.5625em) and (max-width: 56.25em) {
+          .composition__photo--p1:active {
+            top: -3rem;
+            left: 0; } }
+        @media (min-width: 56.3125em) and (max-width: 75em) {
+          .composition__photo--p1:active {
+            top: -2.5rem;
+            left: 0; } }
     .composition__photo--p2 {
       top: 0rem;
       right: 0; }
-      @media (max-width: 37.5em) {
-        .composition__photo--p2:active {
-          top: -2.2rem;
-          right: 0; } }
-      @media (min-width: 37.5625em) and (max-width: 56.25em) {
-        .composition__photo--p2:active {
-          top: -3rem;
-          right: 0; } }
-      @media (min-width: 56.3125em) and (max-width: 75em) {
-        .composition__photo--p2:active {
-          top: -.5rem;
-          right: 0; } }
+      .composition__photo--p2:active {
+        top: -1.5rem;
+        right: 0; }
+        @media (max-width: 37.5em) {
+          .composition__photo--p2:active {
+            top: -2.2rem;
+            right: 0; } }
+        @media (min-width: 37.5625em) and (max-width: 56.25em) {
+          .composition__photo--p2:active {
+            top: -3rem;
+            right: 0; } }
+        @media (min-width: 56.3125em) and (max-width: 75em) {
+          .composition__photo--p2:active {
+            top: -.5rem;
+            right: 0; } }
     .composition__photo--p3 {
       top: 12rem;
       right: 10rem; }
-      @media (max-width: 37.5em) {
-        .composition__photo--p3:active {
-          top: -2.3rem;
-          right: 0; } }
-      @media (min-width: 37.5625em) and (max-width: 56.25em) {
-        .composition__photo--p3:active {
-          top: -3rem;
-          right: 0; } }
-      @media (min-width: 56.3125em) and (max-width: 75em) {
-        .composition__photo--p3:active {
-          top: -2.3rem;
-          right: 0; } }
+      .composition__photo--p3:active {
+        top: -3rem;
+        right: 0; }
+        @media (max-width: 37.5em) {
+          .composition__photo--p3:active {
+            top: -2.3rem;
+            right: 0; } }
+        @media (min-width: 37.5625em) and (max-width: 56.25em) {
+          .composition__photo--p3:active {
+            top: -3rem;
+            right: 0; } }
+        @media (min-width: 56.3125em) and (max-width: 75em) {
+          .composition__photo--p3:active {
+            top: -2.3rem;
+            right: 0; } }
     .composition__photo:hover {
       outline: 0.5rem solid #248b93;
       z-index: 2;
       transform: scale(1.1) translateY(-0.5rem);
       box-shadow: 0 3rem 8rem rgba(0, 0, 0, 0.5); }
       .composition__photo:hover:active {
-        width: 100%; }
+        width: 100%;
+        transform: scale(0.8); }
         @media (max-width: 37.5em) {
           .composition__photo:hover:active {
             transform: scale(0.8); } }

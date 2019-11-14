@@ -20,6 +20,8 @@
       top: 2rem;
       left: 0;
       &:active {
+        top: -3rem;
+        right: 0;
         @include respond(phone) {
           top: -2.2rem;
           left: 0;
@@ -38,6 +40,8 @@
       top: 0rem;
       right: 0;
       &:active {
+        top: -1.5rem;
+        right: 0;
         @include respond(phone) {
           top: -2.2rem;
           right: 0;
@@ -56,6 +60,8 @@
       top: 12rem;
       right: 10rem;
       &:active {
+        top: -3rem;
+        right: 0;
         @include respond(phone) {
           top: -2.3rem;
           right: 0;
@@ -77,6 +83,7 @@
       box-shadow: 0 3rem 8rem rgba($color-black, .5);
       &:active {
         width: 100%;
+        transform: scale(.8);
         @include respond(phone) {
           transform: scale(.8);
         }
