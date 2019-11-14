@@ -1,4 +1,4 @@
-.bg-video {
+.bg-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -6,7 +6,10 @@
   width: 100%;
   z-index: -1;
   overflow: hidden;
-  &__content {
+  object-fit: cover;
+  object-position: left;
+  opacity: .4;
+  &__img {
     height: 100%;
     width: 100%;
 

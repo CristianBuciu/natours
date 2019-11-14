@@ -3,6 +3,7 @@
   margin-top: -25vh;
   @include skewSection;
   padding-bottom: 27.5vh;
+
   @include respond(phone) {
     padding-bottom: 5rem;
   }
@@ -16,13 +17,13 @@
 
 .section-about--media {
   @include respond(phone) {
-    padding-top: 7.5rem;
+    padding-top: 25rem;
   }
   @include respond(tab-port) {
-    padding-top: 8rem;
+    padding-top: 20rem;
   }
   @include respond(tab-land) {
-    padding-top: 12rem;
+    padding-top: 15rem;
   }
   @include respond(big-desk) {
   }
@@ -32,33 +33,85 @@
   @include skewSection;
   backdrop-filter: blur(.1rem);
   background-image: linear-gradient(
-    to right bottom,
-    #313eebc5,
-    #005aeec5,
-    #006ee2c5,
-    #007cccc5,
-    #0085b3c5,
-    #0091b3c5,
-    #079cb0c5,
-    #30a6abc5,
-    #3abbbdc5,
-    #45d0cfc5,
-    #52e5e0c5,
-    #5ffbf1c5
-  );
+      to right bottom,
+      rgba(49, 62, 235, 0.5),
+      rgba(0, 90, 238, 0.5),
+      rgba(0, 110, 226, 0.5),
+      rgba(0, 124, 204, 0.5),
+      rgba(0, 133, 179, 0.5),
+      rgba(0, 145, 179, 0.5),
+      rgba(7, 156, 176, 0.5),
+      rgba(48, 166, 171, 0.5),
+      rgba(58, 187, 189, 0.5),
+      rgba(69, 208, 207, 0.5),
+      rgba(82, 229, 224, 0.5),
+      rgba(95, 251, 241, 0.5)
+    ),
+    url(../img/hero4.jpeg);
+  background-size: cover;
+  background-repeat: none;
+  background-position: top;
+  @include respond(phone) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  @include respond(tab-port) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  @include respond(tab-land) {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  @include respond(big-desk) {
+  }
 }
 
 .section-tours {
   background-color: $color-grey-light1;
   @include skewSection;
+
+  @include respond(phone) {
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+  }
+  @include respond(tab-port) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  @include respond(tab-land) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  @include respond(big-desk) {
+  }
 }
 
 .section-stories {
   padding: 35rem 0 10rem 0;
-  background-color: rgba($color-grey-light1, 0.7s);
 
   margin-top: -15rem;
   position: relative;
+  z-index: -1;
+
+  @include respond(phone) {
+    margin-top: -5rem;
+    padding-top: 12.5rem;
+    padding-bottom: 5rem;
+    padding: 12.5rem 0 5rem 0;
+  }
+  @include respond(tab-port) {
+    margin-top: -8rem;
+    padding-top: 15rem;
+    padding-bottom: 6rem;
+  }
+  @include respond(tab-land) {
+    margin-top: -10rem;
+    padding-top: 20rem;
+    padding-bottom: 7rem;
+  }
+  @include respond(big-desk) {
+  }
 }
 
 .section-book {
@@ -79,6 +132,21 @@
     #52e5e0c5,
     #5ffbf1c5
   );
+
+  @include respond(phone) {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  @include respond(tab-port) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  @include respond(tab-land) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  @include respond(big-desk) {
+  }
 }
 
 .book {

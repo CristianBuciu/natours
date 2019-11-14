@@ -1,5 +1,7 @@
 .feature-box {
-  background-color: rgba($color: #ffffff, $alpha: .75);
+  backdrop-filter: blur(.5rem);
+  -webkit-backdrop-filter: blur(.5rem);
+  background-color: rgba($color: #ffffff, $alpha: .7);
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;

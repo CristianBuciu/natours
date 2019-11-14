@@ -1,5 +1,12 @@
 .composition {
   position: relative;
+
+  @include respond(phone) {
+    padding-bottom: 25rem;
+  }
+  @include respond(tab-port) {
+    padding-bottom: 33rem;
+  }
   &__photo {
     width: 50%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
@@ -12,14 +19,56 @@
     &--p1 {
       top: 2rem;
       left: 0;
+      &:active {
+        @include respond(phone) {
+          top: -2.2rem;
+          left: 0;
+        }
+        @include respond(tab-port) {
+          top: -3rem;
+          left: 0;
+        }
+        @include respond(tab-land) {
+          top: -2.5rem;
+          left: 0;
+        }
+      }
     }
     &--p2 {
       top: 0rem;
       right: 0;
+      &:active {
+        @include respond(phone) {
+          top: -2.2rem;
+          right: 0;
+        }
+        @include respond(tab-port) {
+          top: -3rem;
+          right: 0;
+        }
+        @include respond(tab-land) {
+          top: -.5rem;
+          right: 0;
+        }
+      }
     }
     &--p3 {
       top: 12rem;
       right: 10rem;
+      &:active {
+        @include respond(phone) {
+          top: -2.3rem;
+          right: 0;
+        }
+        @include respond(tab-port) {
+          top: -3rem;
+          right: 0;
+        }
+        @include respond(tab-land) {
+          top: -2.3rem;
+          right: 0;
+        }
+      }
     }
     &:hover {
       outline: .5rem solid $color-primary;
@@ -28,12 +77,23 @@
       box-shadow: 0 3rem 8rem rgba($color-black, .5);
       &:active {
         width: 100%;
+        @include respond(phone) {
+          transform: scale(.8);
+        }
+        @include respond(tab-port) {
+          transform: scale(.8);
+        }
+        @include respond(tab-land) {
+          transform: scale(.8);
+        }
       }
     }
   }
   &:hover &__photo:not(:hover) {
     transform: scale(.9);
     box-shadow: 0 1rem 4rem rgba($color-black, .6);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
   .figcaption {
     position: absolute;
@@ -41,5 +101,8 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    @include respond(phone) {
+      top: -3rem;
+    }
   }
 }
