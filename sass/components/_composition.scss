@@ -81,6 +81,13 @@
       z-index: 2;
       transform: scale(1.1) translateY(-.5rem);
       box-shadow: 0 3rem 8rem rgba($color-black, .5);
+
+      @include respond(tab-port) {
+        outline: none;
+      }
+      @include respond(phone) {
+        outline: none;
+      }
       &:active {
         width: 100%;
         transform: scale(.8);

@@ -11,7 +11,7 @@ html {
   font-size: 62.5%; }
   @media (max-width: 37.5em) {
     html {
-      font-size: 43.75%; } }
+      font-size: 50%; } }
   @media (min-width: 37.5625em) and (max-width: 56.25em) {
     html {
       font-size: 50%; } }
@@ -474,6 +474,12 @@ body {
       z-index: 2;
       transform: scale(1.1) translateY(-0.5rem);
       box-shadow: 0 3rem 8rem rgba(0, 0, 0, 0.5); }
+      @media (min-width: 37.5625em) and (max-width: 56.25em) {
+        .composition__photo:hover {
+          outline: none; } }
+      @media (max-width: 37.5em) {
+        .composition__photo:hover {
+          outline: none; } }
       .composition__photo:hover:active {
         width: 100%;
         transform: scale(0.8); }
@@ -789,7 +795,7 @@ body {
   @media (max-width: 37.5em) {
     .form__radio-group {
       width: 100%;
-      margin-bottom: 1rem; } }
+      margin-bottom: 2rem; } }
 
 .form__radio-input {
   display: none; }
