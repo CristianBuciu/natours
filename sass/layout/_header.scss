@@ -116,16 +116,5 @@
       object-position: top;
       opacity: .5;
     }
-    &--clouds-2 {
-      z-index: -2;
-      position: absolute;
-      right: 0;
-      bottom: -15%;
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      object-position: top;
-      opacity: .6;
-    }
   }
 }
