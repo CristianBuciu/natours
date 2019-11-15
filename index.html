@@ -103,6 +103,7 @@
         </section>
 
         <section class="section-features">
+
             <div class="row">
                 <div class="col-1-of-4">
                     <div class="feature-box">
@@ -260,7 +261,7 @@
         <section class="section-stories">
 
             <div class="bg-img">
-                <img src="img/hero3.jpeg" alt="" class="bg-img__img">
+                <img src="img/hero5.jpeg" alt="" class="bg-img__img">
             </div>
 
             <div class="u-center-text u-margin-bottom-6 ">
@@ -406,11 +407,7 @@
                     dicta? Veritatis accusamus quos, ad a repudiandae consectetur maxime recusandae soluta nisi ratione
                     optio esse impedit aut doloribus id, maiores temporibus! Totam ullam obcaecati eos id? Fugit,
                     facere. Laudantium at exercitationem illo quas tenetur temporibus necessitatibus, corrupti placeat,
-                    expedita facere dolore, hic sequi! Nisi ipsum quo reprehenderit eum vitae in non maxime fugiat
-                    temporibus? Eligendi, consectetur. Consequatur odit voluptatum ipsa qui nisi, dolore adipisci
-                    necessitatibus accusantium a officiis maxime quia, rerum quaerat expedita magni! Voluptatem quae
-                    ducimus suscipit veritatis debitis eligendi nam ipsum, sequi provident ex itaque dignissimos fuga
-                    voluptatibus blanditiis distinctio minus. Sint nihil quasi, officiis esse est obcaecati?</p>
+                    expedita facere dolore.</p>
 
                 <div class="u-center-text u-margin-bottom-4">
                     <a href="#" class="btn btn--purple">book now</a>

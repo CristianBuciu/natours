@@ -36,7 +36,7 @@
       rgba(82, 229, 224, 0.5),
       rgba(95, 251, 241, 0.5)
     ),
-    url(../img/hero4.jpeg);
+    url(../img/hero.jpeg);
   background-size: cover;
   background-repeat: none;
   background-position: center;
@@ -78,10 +78,8 @@
 
 .section-stories {
   padding: 35rem 0 10rem 0;
-
   margin-top: -15rem;
   position: relative;
-  z-index: -1;
 
   @include respond(phone) {
     margin-top: -5rem;
@@ -150,10 +148,35 @@
   border-radius: .5rem;
   box-shadow: 0 1.5rem 4rem rgba($color: #000000, $alpha: .2);
 
-  height: 50rem;
+  @include respond(tab-port) {
+    background-image: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, .9) 0%,
+        rgba(255, 255, 255, .9) 70%,
+        transparent 70%
+      ),
+      url(../img/nat-10.jpg);
+  }
+  @include respond(phone) {
+    background-image: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, .9) 0%,
+        rgba(255, 255, 255, .9) 79%,
+        transparent 79%
+      ),
+      url(../img/nat-10.jpg);
+  }
 
   &__form {
     width: 50%;
     padding: 6rem;
+    @include respond(tab-port) {
+      width: 80%;
+      padding: 4rem;
+    }
+    @include respond(phone) {
+      width: 95%;
+      padding: 3rem;
+    }
   }
 }

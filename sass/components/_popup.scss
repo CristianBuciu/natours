@@ -26,20 +26,57 @@
     opacity: 0;
     transform: translate(-50%, -50%) scale(.5);
     transition: all .5s .3s;
+
+    @include respond(phone) {
+      width: 95%;
+      height: auto;
+    }
+    @include respond(tab-port) {
+      width: 90%;
+      height: auto;
+    }
   }
   &__left {
     width: 33.3333333%;
     display: table-cell;
+
+    @include respond(phone) {
+      width: 100%;
+      display: inline-block;
+    }
+    @include respond(tab-port) {
+      width: 100%;
+      display: inline-block;
+    }
   }
   &__right {
     padding: 0 10rem;
     width: 66.66666667%;
     display: table-cell;
     vertical-align: middle;
+
+    @include respond(phone) {
+      width: 100%;
+      display: inline-block;
+    }
+
+    @include respond(tab-port) {
+      width: 100%;
+      display: inline-block;
+    }
   }
   &__img {
     display: block;
     width: 100%;
+
+    @include respond(phone) {
+      display: none;
+      width: 0;
+    }
+    @include respond(tab-port) {
+      display: none;
+      width: 0;
+    }
   }
   &__text {
     font-size: 1.6rem;
@@ -50,6 +87,17 @@
     column-rule: 1px solid rgb(155, 154, 154);
 
     hyphens: auto;
+
+    @include respond(phone) {
+      height: 100%;
+      margin-bottom: 2rem;
+      column-count: 1;
+    }
+    @include respond(tab-port) {
+      height: 100%;
+      margin-bottom: 2rem;
+      column-count: 1;
+    }
   }
 
   //open states of the popup
@@ -69,11 +117,20 @@
       text-decoration: none;
       display: inline-block;
       color: $color-primary-purple;
-      font-size: 4rem;
+      font-size: 8rem;
       position: absolute;
       top: 2rem;
       right: 6rem;
       transition: all .4s;
+
+      @include respond(phone) {
+        font-size: 8rem;
+        text-shadow: 0 .5rem 2rem rgba($color: #000000, $alpha: .5);
+      }
+      @include respond(tab-port) {
+        font-size: 8rem;
+        text-shadow: 0 .5rem 2rem rgba($color: #000000, $alpha: .5);
+      }
     }
     &:hover {
       color: rgb(15, 172, 28);

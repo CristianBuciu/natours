@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-    <title>Natours - for the adventurer people</title>
+    <title>Exploree - for the adventurer people</title>
 </head>
 
 <body>
@@ -37,15 +36,14 @@
     </div>
     <header class="header">
         <div class="header__img">
-            <img src="./img/mountains.jpg" alt="" class="header__img--mountains lax"
-                data-lax-translate-y="0 0,800 -50">
+            <img src="./img/mountains.jpg" alt="" class="header__img--mountains lax" data-lax-translate-y="0 0,800 -50">
             <img src="./img/forest.png" alt="" class="header__img--forest lax" data-lax-translate-y="0 0,900 -210">
             <img src="./img/clouds2.png" alt="" class="header__img--clouds lax" data-lax-translate-y="0 0,900 100">
             <img src="./img/clouds.png" alt="" class="header__img--clouds-2 lax" data-lax-translate-y="0 0,900 -600">
 
         </div>
         <div class="header__logo-box">
-            <img src="img/logo-white.png" alt="crown logo" class="header__logo">
+            <img src="img/logo-green-2x.png" alt="crown logo" class="header__logo">
         </div>
 
         <div class="header__text-box">
@@ -62,39 +60,46 @@
 
     <main>
         <section class="section-about">
-            <div class="row u-center-text">
-                <h2 class="heading-secondary u-margin-bottom-6 u-margin-top-6">
-                    Exciting tours for adventurous people
-                </h2>
-            </div>
-
-            <div class="row ">
-                <div class="col-1-of-2">
-                    <h3 class="heading-tertiary u-margin-bottom-1">
-                        You're going to fall in love with nature
-                    </h3>
-                    <p class="paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatibus dignissimos, eum
-                        delectus deserunt nisi dolorum est corrupti perspiciatis magni asperiores temporibus, nulla
-                        voluptatem ab quaerat! Ipsum vel impedit obcaecati!
-                    </p>
-                    <h3 class="heading-tertiary u-margin-bottom-1">
-                        Live adventures like you never have before
-                    </h3>
-                    <p class="paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum debitis aliquid praesentium.
-                    </p>
-                    <a href="#" class="btn-text">Learn more &rarr;</a>
+            <div class="section-about--media">
+                <div class="u-center-text">
+                    <h2 class="heading-secondary u-margin-bottom-6">
+                        Exciting tours for adventurous people
+                    </h2>
                 </div>
-                <div class="col-1-of-2">
-                    <div class="composition">
-                        <img src="img/nat-1-large.jpg" alt="Nature 1" class="composition__photo composition__photo--p1">
-                        <img src="img/nat-2-large.jpg" alt="Nature 2" class="composition__photo composition__photo--p2">
-                        <img src="img/nat-3-large.jpg" alt="Nature 3" class="composition__photo composition__photo--p3">
-                        <p class="figcaption"><i>Click the images</i></p>
+
+                <div class="row ">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-margin-bottom-1">
+                            You're going to fall in love with nature
+                        </h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatibus dignissimos,
+                            eum
+                            delectus deserunt nisi dolorum est corrupti perspiciatis magni asperiores temporibus, nulla
+                            voluptatem ab quaerat! Ipsum vel impedit obcaecati!
+                        </p>
+                        <h3 class="heading-tertiary u-margin-bottom-1">
+                            Live adventures like you never have before
+                        </h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum debitis aliquid
+                            praesentium.
+                        </p>
+                        <a href="#" class="btn-text">Learn more &rarr;</a>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <img src="img/nat-1-large.jpg" alt="Nature 1"
+                                class="composition__photo composition__photo--p1">
+                            <img src="img/nat-2-large.jpg" alt="Nature 2"
+                                class="composition__photo composition__photo--p2">
+                            <img src="img/nat-3-large.jpg" alt="Nature 3"
+                                class="composition__photo composition__photo--p3">
+                            <p class="figcaption"><i>Click the images</i></p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div clasclass="section-about--media">
         </section>
 
         <section class="section-features">
@@ -254,11 +259,8 @@
         </section>
         <section class="section-stories">
 
-            <div class="bg-video">
-                <video class="bg-video__content" autoplay muted loop>
-                    <source src="img/sass_tours.mp4" type="video/mp4">
-                    Your browser is not supported to play this video!
-                </video>
+            <div class="bg-img">
+                <img src="img/hero3.jpeg" alt="" class="bg-img__img">
             </div>
 
             <div class="u-center-text u-margin-bottom-6 ">
@@ -360,7 +362,7 @@
 
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+            <img src="img/logo-green-2x1.png" alt="Full logo" class="footer__logo">
         </div>
         <div class="row">
 
