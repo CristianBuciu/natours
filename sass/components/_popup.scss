@@ -134,7 +134,7 @@
     }
     &:hover {
       color: rgb(15, 172, 28);
-      transform: scale(1.3);
+      transform: scale(1.3) rotate(180deg);
     }
   }
 }
